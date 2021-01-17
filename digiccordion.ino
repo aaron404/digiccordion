@@ -1,4 +1,4 @@
-#include <SD.h>
+
 
 #include <Fluxamasynth.h>
 #include <PgmChange.h>
@@ -52,14 +52,16 @@ void setup() {
 
   digitalWrite(CLOCK_PIN, LOW);
 
-  synth.setMasterVolume(255);
-  synth.programChange(SYNTH_PROGRAM_RH, SYNTH_CHANNEL_RH);
-  synth.programChange(SYNTH_PROGRAM_LH, SYNTH_CHANNEL_LF);
+  //synth.setMasterVolume(255);
+  //synth.programChange(SYNTH_PROGRAM_RH, SYNTH_CHANNEL_RH);
+  //synth.programChange(SYNTH_PROGRAM_LH, SYNTH_CHANNEL_LF);
+  Serial.println("booted");
 }
 
 void loop() {
   read_keys();
   process_key_events();
+  //delay(1000);
 }
 
 /*
@@ -95,6 +97,17 @@ void read_keys() {
     button_events[i] = button_values[i] ^ tmp;
     button_values[i] = tmp;
   }
+  /*
+  Serial.print("0b");
+  for (int i=0; i<8; i++) {
+    Serial.print((button_values[0] >> i) & 1);
+  }
+  Serial.print(" 0b");
+  for (int i=0; i<8; i++) {
+    Serial.print((button_events[0] >> i) & 1);
+  }
+  Serial.println("");
+  */
 }
 
 void process_key_events() {
@@ -115,9 +128,15 @@ void process_key_events() {
 void handle_button(uint8_t button_id, bool button_state) {
   if (button_id < 65) { // piano orstradella bass key
     if (button_state) { // button pressed
-      synth.noteOn(SYNTH_CHANNEL_RH, BUTTON_TO_MIDI[button_id], SYNTH_VEL);
+      Serial.print("Note ");
+      Serial.print(BUTTON_TO_MIDI[button_id], DEC);
+      Serial.println(" on");
+      //synth.noteOn(SYNTH_CHANNEL_RH, BUTTON_TO_MIDI[button_id], SYNTH_VEL);
     } else { // button released
-      synth.noteOff(SYNTH_CHANNEL_RH, BUTTON_TO_MIDI[button_id]);
+      Serial.print("Note ");
+      Serial.print(BUTTON_TO_MIDI[button_id], DEC);
+      Serial.println(" off");
+      //synth.noteOff(SYNTH_CHANNEL_RH, BUTTON_TO_MIDI[button_id]);
     }
   } else {
     
