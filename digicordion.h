@@ -1,0 +1,44 @@
+
+PROGMEM const char string000[] = "Acoustic Grand Piano";    PROGMEM const char string032[] = "Acoustic Bass";           PROGMEM const char string064[] = "Soprano Sax";             PROGMEM const char string096[] = "FX 1 (rain)";
+PROGMEM const char string001[] = "Bright Acoustic Piano";   PROGMEM const char string033[] = "Electric Bass (finger)";  PROGMEM const char string065[] = "Alto Sax";                PROGMEM const char string097[] = "FX 2 (soundtrack)";
+PROGMEM const char string002[] = "Electric Grand Piano";    PROGMEM const char string034[] = "Electric Bass (pick)";    PROGMEM const char string066[] = "Tenor Sax";               PROGMEM const char string098[] = "FX 3 (crystal)";
+PROGMEM const char string003[] = "Honky-tonk Piano";        PROGMEM const char string035[] = "Fretless Bass";           PROGMEM const char string067[] = "Baritone Sax";            PROGMEM const char string099[] = "FX 4 (atmosphere)";
+PROGMEM const char string004[] = "Electric Piano 1";        PROGMEM const char string036[] = "Slap Bass 1";             PROGMEM const char string068[] = "Oboe";                    PROGMEM const char string100[] = "FX 5 (brightness)";
+PROGMEM const char string005[] = "Electric Piano 2";        PROGMEM const char string037[] = "Slap Bass 2";             PROGMEM const char string069[] = "English Horn";            PROGMEM const char string101[] = "FX 6 (goblins)";
+PROGMEM const char string006[] = "Harpsichord";             PROGMEM const char string038[] = "Synth Bass 1";            PROGMEM const char string070[] = "Bassoon";                 PROGMEM const char string102[] = "FX 7 (echoes)";
+PROGMEM const char string007[] = "Clavinet";                PROGMEM const char string039[] = "Synth Bass 2";            PROGMEM const char string071[] = "Clarinet";                PROGMEM const char string103[] = "FX 8 (sci-fi)";
+PROGMEM const char string008[] = "Celesta";                 PROGMEM const char string040[] = "Violin";                  PROGMEM const char string072[] = "Piccolo";                 PROGMEM const char string104[] = "Sitar";
+PROGMEM const char string009[] = "Glockenspiel";            PROGMEM const char string041[] = "Viola";                   PROGMEM const char string073[] = "Flute";                   PROGMEM const char string105[] = "Banjo";
+PROGMEM const char string010[] = "Music Box";               PROGMEM const char string042[] = "Cello";                   PROGMEM const char string074[] = "Recorder";                PROGMEM const char string106[] = "Shamisen";
+PROGMEM const char string011[] = "Vibraphone";              PROGMEM const char string043[] = "Contrabass";              PROGMEM const char string075[] = "Pan Flute";               PROGMEM const char string107[] = "Koto";
+PROGMEM const char string012[] = "Marimba";                 PROGMEM const char string044[] = "Tremolo Strings";         PROGMEM const char string076[] = "Blown Bottle";            PROGMEM const char string108[] = "Kalimba";
+PROGMEM const char string013[] = "Xylophone";               PROGMEM const char string045[] = "Pizzicato Strings";       PROGMEM const char string077[] = "Shakuhachi";              PROGMEM const char string109[] = "Bagpipe";
+PROGMEM const char string014[] = "Tubular Bells";           PROGMEM const char string046[] = "Orchestral Harp";         PROGMEM const char string078[] = "Whistle";                 PROGMEM const char string110[] = "Fiddle";
+PROGMEM const char string015[] = "Dulcimer";                PROGMEM const char string047[] = "Timpani Ensemble";        PROGMEM const char string079[] = "Ocarina";                 PROGMEM const char string111[] = "Shanai";
+PROGMEM const char string016[] = "Drawbar Organ";           PROGMEM const char string048[] = "String Ensemble 1";       PROGMEM const char string080[] = "Lead 1 (square)";         PROGMEM const char string112[] = "Tinkle Bell";
+PROGMEM const char string017[] = "Percussive Organ";        PROGMEM const char string049[] = "String Ensemble 2";       PROGMEM const char string081[] = "Lead 2 (sawtooth)";       PROGMEM const char string113[] = "Agogo";
+PROGMEM const char string018[] = "Rock Organ";              PROGMEM const char string050[] = "Synth Strings 1";         PROGMEM const char string082[] = "Lead 3 (calliope)";       PROGMEM const char string114[] = "Steel Drums";
+PROGMEM const char string019[] = "Church Organ";            PROGMEM const char string051[] = "Synth Strings 2";         PROGMEM const char string083[] = "Lead 4 (chiff)";          PROGMEM const char string115[] = "Woodblock";
+PROGMEM const char string020[] = "Reed Organ";              PROGMEM const char string052[] = "Choir Aahs";              PROGMEM const char string084[] = "Lead 5 (charang)";        PROGMEM const char string116[] = "Taiko Drum";
+PROGMEM const char string021[] = "Accordion";               PROGMEM const char string053[] = "Voice Oohs";              PROGMEM const char string085[] = "Lead 6 (voice)";          PROGMEM const char string117[] = "Melodic Tom";
+PROGMEM const char string022[] = "Harmonica";               PROGMEM const char string054[] = "Synth Choir";             PROGMEM const char string086[] = "Lead 7 (fifths)";         PROGMEM const char string118[] = "Synth Drum";
+PROGMEM const char string023[] = "Tango Accordion";         PROGMEM const char string055[] = "Orchestra Hit";           PROGMEM const char string087[] = "Lead 8 (bass + lead)";    PROGMEM const char string119[] = "Reverse Cymbal";
+PROGMEM const char string024[] = "Acoustic Guitar (nylon)"; PROGMEM const char string056[] = "Trumpet";                 PROGMEM const char string088[] = "Pad 1 (new age)";         PROGMEM const char string120[] = "Guitar Fret Noise";
+PROGMEM const char string025[] = "Acoustic Guitar (steel)"; PROGMEM const char string057[] = "Trombone";                PROGMEM const char string089[] = "Pad 2 (warm)";            PROGMEM const char string121[] = "Breath Noise";
+PROGMEM const char string026[] = "Electric Guitar (jazz)";  PROGMEM const char string058[] = "Tuba";                    PROGMEM const char string090[] = "Pad 3 (polysynth)";       PROGMEM const char string122[] = "Seashore";
+PROGMEM const char string027[] = "Electric Guitar (clean)"; PROGMEM const char string059[] = "Muted Trumpet";           PROGMEM const char string091[] = "Pad 4 (choir)";           PROGMEM const char string123[] = "Bird Tweet";
+PROGMEM const char string028[] = "Electric Guitar (muted)"; PROGMEM const char string060[] = "French Horn";             PROGMEM const char string092[] = "Pad 5 (bowed)";           PROGMEM const char string124[] = "Telephone Ring";
+PROGMEM const char string029[] = "Overdriven Guitar";       PROGMEM const char string061[] = "Brass Section";           PROGMEM const char string093[] = "Pad 6 (metallic)";        PROGMEM const char string125[] = "Helicopter";
+PROGMEM const char string030[] = "Distortion Guitar";       PROGMEM const char string062[] = "Synth Brass 1";           PROGMEM const char string094[] = "Pad 7 (halo)";            PROGMEM const char string126[] = "Applause";
+PROGMEM const char string031[] = "Guitar HarmonicsBass";    PROGMEM const char string063[] = "Synth Brass 2";           PROGMEM const char string095[] = "Pad 8 (sweep)";           PROGMEM const char string127[] = "128 Gunshot";
+
+PROGMEM const char *const voice_names[] = {
+  string000, string001, string002, string003, string004, string005, string006, string007, string008, string009, string010, string011, string012, string013, string014, string015,
+  string016, string017, string018, string019, string020, string021, string022, string023, string024, string025, string026, string027, string028, string029, string030, string031,
+  string032, string033, string034, string035, string036, string037, string038, string039, string040, string041, string042, string043, string044, string045, string046, string047,
+  string048, string049, string050, string051, string052, string053, string054, string055, string056, string057, string058, string059, string060, string061, string062, string063,
+  string064, string065, string066, string067, string068, string069, string070, string071, string072, string073, string074, string075, string076, string077, string078, string079,
+  string080, string081, string082, string083, string084, string085, string086, string087, string088, string089, string090, string091, string092, string093, string094, string095,
+  string096, string097, string098, string099, string100, string101, string102, string103, string104, string105, string106, string107, string108, string109, string110, string111,
+  string112, string113, string114, string115, string116, string117, string118, string119, string120, string121, string122, string123, string124, string125, string126, string127,
+};
